@@ -6,8 +6,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../../firebase/config";
 import Loader from "../../components/loader/Loader";
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { toast } from "react-toastify";
 
 const Register = () => {
   const [email, setEmail] = useState("");
@@ -40,7 +39,6 @@ const Register = () => {
 
   return (
     <>
-    <ToastContainer/>
       {isLoading && <Loader />}
       <section className={`container ${styles.auth}`}>
         <Card>
@@ -48,7 +46,7 @@ const Register = () => {
             <h2>Register</h2>
 
             <form onSubmit={registerUser}>
-               <input
+              <input
                 type="text"
                 placeholder="Email"
                 required
