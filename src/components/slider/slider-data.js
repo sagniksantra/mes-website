@@ -20,10 +20,3 @@ export const sliderData = [
     desc: "Lorem ipsum dolor sit amet elit.",
   },
 ];
-
-
-//img links
-//https://ibb.co/fv9wWKN
-//https://ibb.co/x5WNH5M
-//https://ibb.co/C9PjyKL
-//https://ibb.co/PwjjCkd
