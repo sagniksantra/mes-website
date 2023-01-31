@@ -56,16 +56,5 @@
   "homepage": "http://localhost:3000/",
   "devDependencies": {
     "sass": "^1.57.1"
-  },
-  "description": "",
-  "main": "server.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Sranjan0208/mes.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Sranjan0208/mes/issues"
   }
 }
