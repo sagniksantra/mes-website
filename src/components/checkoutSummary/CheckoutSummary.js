@@ -22,7 +22,7 @@ const CheckoutSummary = () => {
           <>
             <p>No item in your cart.</p>
             <button className="--btn">
-              <Link to="/#products">Back To Shop</Link>
+              <Link to="/#products">Back To Home</Link>
             </button>
           </>
         ) : (
@@ -39,9 +39,6 @@ const CheckoutSummary = () => {
               return (
                 <Card key={id} cardClass={styles.card}>
                   <h4>Product: {name}</h4>
-                  <p>Quantity: {cartQuantity}</p>
-                  <p>Unit price: {price}</p>
-                  <p>Set price: {price * cartQuantity}</p>
                 </Card>
               );
             })}
